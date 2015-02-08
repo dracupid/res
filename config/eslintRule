@@ -124,6 +124,8 @@ no-sync: 0 # node
 
 
 # Style
+indent = 0
+indent = [2, 4, {indentSwitchCase: true}] # strict
 brace-style = 0
 brace-style = [2, "stroustrup", { "allowSingleLine": true }] # strict
 camelcase = 0

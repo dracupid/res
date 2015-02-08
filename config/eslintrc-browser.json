@@ -103,6 +103,7 @@
         "no-undefined": 0,
         "no-unused-vars": 0,
         "no-use-before-define": 1,
+        "indent": 0,
         "brace-style": 0,
         "camelcase": 0,
         "comma-spacing": 0,
