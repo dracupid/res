@@ -179,6 +179,7 @@ space-after-function-name: [2, 'never'] # strict
 space-after-keywords: 0
 space-after-keywords: [2, "always" ] # strict
 space-before-blocks: 0
+space-before-function-parentheses: [2, {"anonymous": "always", "named": "never"}]
 space-in-brackets: 0
 space-in-brackets: [2, 'never'] # strict
 space-in-parens: 0

@@ -166,6 +166,13 @@
         "space-after-function-name": 0,
         "space-after-keywords": 0,
         "space-before-blocks": 0,
+        "space-before-function-parentheses": [
+            2,
+            {
+                "anonymous": "always",
+                "named": "never"
+            }
+        ],
         "space-in-brackets": 0,
         "space-in-parens": 0,
         "space-infix-ops": 2,
