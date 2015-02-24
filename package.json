@@ -1,0 +1,19 @@
+{
+  "name": "res",
+  "version": "0.0.1",
+  "description": "Personal resource repository",
+  "dependencies": {
+    "nobone": "1.4.7"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dracupid/res.git"
+  },
+  "author": "Dracupid",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/dracupid/res/issues"
+  },
+  "homepage": "https://github.com/dracupid/res"
+}
