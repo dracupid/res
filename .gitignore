@@ -1,2 +1,5 @@
 .nobone
 *.log
+node_modules
+.coffee
+.nokit
