@@ -6,6 +6,10 @@
     },
     "rules": {
         "no-comma-dangle": 2,
+        "comma-dangle": [
+            2,
+            "never"
+        ],
         "no-cond-assign": [
             2,
             "except-parens"
@@ -191,6 +195,13 @@
         ],
         "quotes": 0,
         "semi": 2,
+        "semi-spacing": [
+            2,
+            {
+                "before": false,
+                "after": false
+            }
+        ],
         "sort-vars": 0,
         "space-after-function-name": [
             2,

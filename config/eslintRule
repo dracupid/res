@@ -1,6 +1,8 @@
 # Errors
 no-comma-dangle: 0
+comma-dangle: 0
 no-comma-dangle: 2 # strict
+comma-dangle: [2, "never"] # strict
 no-cond-assign: [2, "except-parens"]
 no-console: 0
 no-constant-condition: 0
@@ -173,6 +175,8 @@ quote-props: [2, "as-needed"] # strict
 quotes: 0
 semi: 0
 semi: 2 # strict
+semi-spacing: 0
+semi-spacing: [2, {"before": false, "after": false}] # strict
 sort-vars: 0
 space-after-function-name: 0
 space-after-function-name: [2, 'never'] # strict

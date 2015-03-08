@@ -6,6 +6,7 @@
     },
     "rules": {
         "no-comma-dangle": 0,
+        "comma-dangle": 0,
         "no-cond-assign": [
             2,
             "except-parens"
@@ -150,6 +151,7 @@
         "quote-props": 0,
         "quotes": 0,
         "semi": 0,
+        "semi-spacing": 0,
         "sort-vars": 0,
         "space-after-function-name": 0,
         "space-after-keywords": 0,
