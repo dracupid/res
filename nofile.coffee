@@ -9,6 +9,7 @@ module.exports = (task) ->
 
         kit.glob '?(config|dot|style)/**/*.*', all: yes
         .then (files)->
+            files = files.sort()
             Promise.all files.map (fpath)->
                 kit.readFile(fpath).then (str) ->
                     hash[fpath] = kit.jhash.hash str
