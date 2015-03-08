@@ -6,10 +6,11 @@ Promise = kit.Promise
 module.exports = (task) ->
     task 'hash', ->
         hash = {}
-
-        kit.glob '?(config|dot|style)/**/*.*', all: yes
+        kit.remove '**/.DS_Store'
+        .then ->
+            kit.glob '?(config|dot|style)/**/*.*', all: yes
         .then (files)->
-            files = files.sort()
+            files = files.sort() # .filter (name)->
             Promise.all files.map (fpath)->
                 kit.readFile(fpath).then (str) ->
                     hash[fpath] = kit.jhash.hash str
