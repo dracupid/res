@@ -1,11 +1,11 @@
 {
   "config/coffeelint-strict.json": "k7Xwc",
   "config/coffeelint.json": "1xbp4*",
-  "config/eslintrc-browser-strict.json": "!n3Cq",
-  "config/eslintrc-browser.json": "1050KC",
+  "config/eslintrc-node-strict.json": "ZRO1w",
   "config/eslintGenerator.coffee": "XnBJw",
-  "config/eslintrc-node-strict.json": "UCGsH",
-  "config/eslintrc-node.json": "6i8LZ",
+  "config/eslintrc-browser-strict.json": "(DxU3",
   "dot/.editorconfig": "1cp*EG",
-  "style/markdown.css": "2sbTC0"
+  "style/markdown.css": "2sbTC0",
+  "config/eslintrc-browser.json": "(n0JA",
+  "config/eslintrc-node.json": "l907T"
 }
