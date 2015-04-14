@@ -145,6 +145,7 @@
         "new-parens": 0,
         "newline-after-var": 0,
         "no-array-constructor": 2,
+        "no-continue": 0,
         "no-inline-comments": 0,
         "no-lonely-if": 0,
         "no-mixed-spaces-and-tabs": 0,
@@ -162,6 +163,7 @@
             2,
             "always"
         ],
+        "operator-linebreak": 0,
         "padded-blocks": 0,
         "quote-props": 0,
         "quotes": 0,
