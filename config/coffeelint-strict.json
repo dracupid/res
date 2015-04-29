@@ -2,6 +2,11 @@
     "arrow_spacing": {
         "level": "error"
     },
+    "braces_spacing": {
+        "level": "error",
+        "spaces": 0,
+        "empty_object_spaces": 0
+    },
     "camel_case_classes": {
         "level": "error"
     },
@@ -42,7 +47,8 @@
         "limitComments": false
     },
     "missing_fat_arrows": {
-        "level": "ignore"
+        "level": "warn",
+        "is_strict": false
     },
     "newlines_after_classes": {
         "value": 2,
@@ -55,7 +61,7 @@
         "level": "warn"
     },
     "no_empty_functions": {
-        "level": "error"
+        "level": "warn"
     },
     "no_empty_param_list": {
         "level": "error"

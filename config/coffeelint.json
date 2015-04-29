@@ -2,6 +2,9 @@
     "arrow_spacing": {
         "level": "ignore"
     },
+    "braces_spacing": {
+        "level": "ignore"
+    },
     "camel_case_classes": {
         "level": "error"
     },
@@ -55,7 +58,7 @@
         "level": "warn"
     },
     "no_empty_functions": {
-        "level": "warn"
+        "level": "ignore"
     },
     "no_empty_param_list": {
         "level": "ignore"
