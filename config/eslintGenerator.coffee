@@ -45,7 +45,7 @@ parseRule = do ->
                     ruleObjBrowser[k] = v
 
 nodeEslintRc = do ->
-    env = ['node', 'mocha']
+    env = ['node', 'mocha', 'es6']
     rc = {}
     setEnv rc, env
     rc.rules = ruleObjNode
