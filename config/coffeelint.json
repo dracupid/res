@@ -51,7 +51,7 @@
         "level": "ignore"
     },
     "newlines_after_classes": {
-        "value": 3,
+        "value": 2,
         "level": "ignore"
     },
     "no_backticks": {
